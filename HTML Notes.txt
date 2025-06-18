@@ -1,0 +1,62 @@
+Attribute, Element, Tags
+
+1. only 1 h1 should be there in 1 text file.
+
+2. void element <hr /> : creates a line in between, used to separate.
+
+3. break element <br /> : for newline 
+
+4. in paragraphs use <p>...</p> instead of <br/>  for new paragraphs.
+
+5. list element:
+ (i) unordered list:- will create bullets
+    <ul>
+       <li>.....</li>
+       <li>.....</li>
+    </ul>
+ (ii) ordered list:- will mark each line with numbers
+    <ol>
+       <li>.....</li>
+       <li>.....</li>
+    </ol>
+ (iii) nested list:- list inside list
+    <ul>
+       <li>.....</li>
+       <li> nested list
+         <ul>
+           <li>.....</li>
+           <li>.....</li>
+         </ul>
+       </li>
+       <li>.....</li>
+    </ul>
+
+6. anchor tag: 
+    href attribute:- <a href ="link"> link title </a> ---- for hyperlink
+    draggable attribute:- <a draggable=true> content </a> ---- to drag
+
+7. img tag: 
+    <img src = "path" />   --- src attribute
+    <img src = "path" alt = "title" />  --- alt attribute
+
+8. table element:
+    <table>
+      <tr>  --- table row
+        <th>  --- table header
+          heading
+        </th>
+        <td>  --- table data
+          data
+        </td>
+      </tr>
+      <tr>
+        <th>heading</th>
+        <td>data</td>
+      </tr>
+      </table>
+   (i)  rowspan attribute:  <td rowspan = "2"> data </td>  --- to merge rows
+   (ii) colspan attribute:  <td colspan = "2"> data </td>  --- to merge columns
+
+9. File path:
+    ../  -----> makes us go out to the folder in which the code is
+    ./   -----> makes us go to the current folder
